@@ -66,7 +66,8 @@ Trigger on every push to the main branch.
 
 Check out the code, set up Node.js, install dependencies, and run tests.
 
-🔍 Understanding Workflow Syntax
+ 🔍 Understanding Workflow Syntax
+
 GitHub Actions workflows are written in YAML. The basic structure includes:
 
 name: The name of the workflow.
