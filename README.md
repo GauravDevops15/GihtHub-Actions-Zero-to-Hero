@@ -58,6 +58,8 @@ jobs:
         run: npm install
       - name: Run tests
         run: npm test
+
+
 This action will:
 
 Trigger on every push to the main branch.
@@ -78,6 +80,7 @@ steps: Individual tasks within a job.
 You can customize this structure to fit your specific needs.
 
 🛠️ Using Actions from the Marketplace
+
 GitHub Actions has a marketplace where you can find pre-built actions that help automate tasks like deployments, linting, testing, and more. To use an action from the marketplace:
 
 Go to the GitHub Actions Marketplace.
@@ -94,6 +97,8 @@ Copy code
   uses: actions/setup-python@v2
   with:
     python-version: '3.9'
+
+
 💡 Advanced Workflows
 Once you're comfortable with basic workflows, you can explore more advanced features, including:
 
@@ -126,7 +131,7 @@ jobs:
         run: npm install
       - name: Run tests
         run: npm test
-💬 Common Use Cases
+💬  Common Use Cases
 CI/CD for Node.js: Build, test, and deploy a Node.js application.
 
 Deploy to AWS: Automate the deployment of an application to AWS.
